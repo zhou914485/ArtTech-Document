@@ -1,17 +1,54 @@
-# Welcome to MkDocs
+# 欢迎来到 ArtTech 社团文档
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+这个网站是艺数盒子 ArtTech 社团的官方文档站，你可以在这里找到社团的相关信息，学习资料，项目介绍等等。
 
-## Commands
+## 🚀 快速导航
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+### 🏛️ 社团介绍
+了解 ArtTech 社团的发展历程、成员构成和活动记录。
 
-## Project layout
+- [社团简介](社团介绍/简介.md) - 社团的基本信息和发展历程
+- [成员介绍](社团介绍/成员.md) - 认识我们的团队成员
+- [活动记录](社团介绍/活动.md) - 社团的各类活动和成果
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+### 🎮 游戏引擎学习
+
+#### Unreal Engine
+- [UE入门](UE/入门.md) - 从零开始学习 UE
+- [UE进阶](UE/进阶.md) - 深入了解 UE 高级功能
+- [UE项目](UE/项目.md) - 实践项目和案例分析
+
+#### Unity
+- [Unity入门](Unity/入门.md) - Unity 基础教程
+- [Unity进阶](Unity/进阶.md) - Unity 高级技术
+- [Unity项目](Unity/项目.md) - Unity 项目实战
+
+### 💻 编程基础
+- [C#基础](编程基础/CSharp.md) - C# 编程语言基础
+- [C++基础](编程基础/Cpp.md) - C++ 编程语言基础
+- [算法数据结构](编程基础/算法.md) - 算法和数据结构学习
+
+### 📋 项目信息
+- [蜀祭·太初](项目信息/蜀祭·太初.md) - 社团重点项目
+- [食几何时](项目信息/食几何时.md) - 社团项目展示
+
+## 🔧 开始使用
+
+如果你是新成员，建议按以下顺序学习：
+
+1. **了解社团** - 先阅读社团介绍部分
+2. **选择方向** - 根据兴趣选择 UE 或 Unity 学习路径
+3. **编程基础** - 学习相关的编程语言基础
+4. **实践项目** - 参与社团项目，将理论付诸实践
+
+## 📞 联系我们
+
+如果你在学习过程中遇到任何问题，欢迎通过以下方式联系我们：
+
+- 社团 QQ 群：[待添加]
+- 社团邮箱：[待添加]
+- GitHub 组织：[待添加]
+
+---
+
+*最后更新：2025年7月*

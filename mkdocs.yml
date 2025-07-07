@@ -1,3 +1,62 @@
 site_name: ArtTech Document
+#site_url: https://wuzhineihan.github.io/ArtTech-Document
 theme:
   name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - search.share
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+nav:
+  - 首页: index.md
+  - 社团介绍: 
+    - 社团简介: 社团介绍/简介.md
+    - 成员介绍: 社团介绍/成员.md
+    - 活动记录: 社团介绍/活动.md
+  - UE:
+    - UE入门: UE/入门.md
+    - UE进阶: UE/进阶.md
+    - UE项目: UE/项目.md
+  - Unity:
+    - Unity入门: Unity/入门.md
+    - Unity进阶: Unity/进阶.md
+    - Unity项目: Unity/项目.md
+  - 编程基础:
+    - C#基础: 编程基础/CSharp.md
+    - C++基础: 编程基础/Cpp.md
+    - 算法数据结构: 编程基础/算法.md
+  - 项目信息:
+    - 蜀祭·太初: 项目信息/蜀祭·太初.md
+    - 食几何时: 项目信息/食几何时.md
+
+plugins:
+  - search
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.details
