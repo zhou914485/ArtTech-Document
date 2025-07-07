@@ -79,5 +79,5 @@ extra:
       # link: https://github.com/wuzhineihan
     # - icon: fontawesome/brands/bilibili
       # link: https://space.bilibili.com/你的b站id
-    # - icon: fontawesome/brands/qq
-      # link: https://qm.qq.com/cgi-bin/qm/qr?k=你的qq群码
+    - icon: fontawesome/brands/qq
+      link: https://qm.qq.com/cgi-bin/qm/qr?k=2165018371
