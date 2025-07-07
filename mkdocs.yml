@@ -2,6 +2,8 @@ site_name: ArtTech Document
 #site_url: https://wuzhineihan.github.io/ArtTech-Document
 theme:
   name: material
+  logo: assets/logo.jpg       # 建议放置社团 logo
+  favicon: assets/logo.jpg    # 建议自定义 favicon
   features:
     - navigation.tabs
     - navigation.sections
@@ -9,19 +11,26 @@ theme:
     - navigation.top
     - search.highlight
     - search.share
+    - content.code.copy         # 代码块一键复制
+    - content.action.edit       # 页面右上角“编辑此页”按钮
+    - content.action.view       # 页面右上角“在 GitHub 查看”
   palette:
     - scheme: default
       primary: indigo
       accent: indigo
       toggle:
         icon: material/brightness-7
-        name: Switch to dark mode
+        name: 切换夜间模式
     - scheme: slate
       primary: indigo
       accent: indigo
       toggle:
         icon: material/brightness-4
-        name: Switch to light mode
+        name: 切换日间模式
+  font:
+    text: Noto Sans SC
+    code: Fira Mono
+  language: zh
 
 nav:
   - 首页: index.md
@@ -61,3 +70,14 @@ markdown_extensions:
   - pymdownx.snippets
   - admonition
   - pymdownx.details
+  - toc:
+      permalink: true
+
+extra:
+  social:
+    # - icon: fontawesome/brands/github
+      # link: https://github.com/wuzhineihan
+    # - icon: fontawesome/brands/bilibili
+      # link: https://space.bilibili.com/你的b站id
+    # - icon: fontawesome/brands/qq
+      # link: https://qm.qq.com/cgi-bin/qm/qr?k=你的qq群码
