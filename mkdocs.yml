@@ -2,8 +2,8 @@ site_name: ArtTech Document
 #site_url: https://wuzhineihan.github.io/ArtTech-Document
 theme:
   name: material
-  logo: assets/logo.jpg       # 建议放置社团 logo
-  favicon: assets/logo.jpg    # 建议自定义 favicon
+  logo: assets/logo.jpg # 建议放置社团 logo
+  favicon: assets/logo.jpg # 建议自定义 favicon
   features:
     - navigation.tabs
     - navigation.sections
@@ -11,9 +11,9 @@ theme:
     - navigation.top
     - search.highlight
     - search.share
-    - content.code.copy         # 代码块一键复制
-    - content.action.edit       # 页面右上角“编辑此页”按钮
-    - content.action.view       # 页面右上角“在 GitHub 查看”
+    - content.code.copy # 代码块一键复制
+    - content.action.edit # 页面右上角“编辑此页”按钮
+    - content.action.view # 页面右上角“在 GitHub 查看”
   palette:
     - scheme: default
       primary: indigo
@@ -34,26 +34,28 @@ theme:
 
 nav:
   - 首页: index.md
-  - 社团介绍: 
-    - 社团简介: 社团介绍/简介.md
-    - 成员介绍: 社团介绍/成员.md
-    - 活动记录: 社团介绍/活动.md
+  - 社团介绍:
+      - 社团简介: 社团介绍/简介.md
+      - 成员介绍: 社团介绍/成员.md
+      - 活动记录: 社团介绍/活动.md
   - UE:
-    - UE入门: UE/入门.md
-    - UE进阶: UE/进阶.md
-    - UE项目: UE/项目.md
+      - UE入门: UE/入门.md
+      - UE进阶: UE/进阶.md
+      - UE项目: UE/项目.md
   - Unity:
-    - Unity入门: Unity/入门.md
-    - Unity进阶: Unity/进阶.md
-    - Unity项目: Unity/项目.md
-    - Unity这是什么: Unity/这是什么.md
+      - Unity入门: Unity/入门.md
+      - Unity进阶: Unity/进阶.md
+      - Unity项目: Unity/项目.md
+      - Unity这是什么: Unity/这是什么.md
+  - Godot:
+      - Godot入门: Godot/test.md
   - 编程基础:
-    - C#基础: 编程基础/CSharp.md
-    - C++基础: 编程基础/Cpp.md
-    - 算法数据结构: 编程基础/算法.md
+      - C#基础: 编程基础/CSharp.md
+      - C++基础: 编程基础/Cpp.md
+      - 算法数据结构: 编程基础/算法.md
   - 项目信息:
-    - 蜀祭·太初: 项目信息/蜀祭·太初.md
-    - 食几何时: 项目信息/食几何时.md
+      - 蜀祭·太初: 项目信息/蜀祭·太初.md
+      - 食几何时: 项目信息/食几何时.md
 
 plugins:
   - search
