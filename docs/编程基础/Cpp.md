@@ -1,4 +1,5 @@
 # C++
+> 本页面由[张大佑](../社团介绍/成员.md#张大佑)编写并发布
 ## C++的用处
 * 使你快速了解面向对象编程概念
 * 刷数据结构与算法题目必备技能
@@ -32,3 +33,27 @@
 课程主页：[CS106B 2022 winter](https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1224/) (可以在这里找到Assignment文档)
 
 课程作业初始包：[Starter Code](https://github.com/wuzhineihan/CS106B_StarterCode)
+
+### 了解C++现代特性：Stanford CS106L
+
+课程介绍（转自csdiy）：
+
+> 我从大一开始一直都是写的 C++ 代码，直到学完这门课我才意识到，我写的 C++ 代码大概只是 C 语言 + cin/cout 而已。
+这门课会深入到很多标准 C++ 的特性和语法，让你编写出高质量的 C++ 代码。例如 auto binding, uniform initialization, lambda function, move semantics，RAII 等技巧都在我此后的代码生涯中被反复用到，非常实用。
+值得一提的是，这门课的作业里你会实现一个 HashMap（类似于 STL 中的 unordered_map), 这个作业几乎把整个课程串联了起来，非常考验代码能力。特别是 iterator 的实现，做完这个作业我开始理解为什么 Linus 对 C/C++ 嗤之以鼻了，因为真的很难写对。
+总的来讲这门课并不难，但是信息量很大，需要你在之后的开发实践中反复巩固。Stanford 之所以单开一门 C++ 的编程课，是因为它后续的很多 CS 课程 Project 都是基于 C++的。例如 CS144 计算机网络和 CS143 编译器。这两门课在本书中均有收录。
+
+课程视频：[bilibili](https://www.bilibili.com/video/BV1K8411b7AU?vd_source=c3775a637d3254e89c728ed792770aba)
+
+由于笔者只看了课程视频，没有写作业，因此暂无作业资源，更多内容可以自行访问课程官方网站和CS自学社区进行获取。
+
+### C++的日常练习：[LeetCode](https://leetcode.cn/)
+
+算法能力是CS学生就业面试时重点考察的能力，同时对于一些基本数据结构的了解是整个开发过程当中的基石。
+
+理论上，看完CS106B就可以开始刷LeetCode了，在刷题的过程中除了STL基本用不到C++的特性，因此此课程可以和CS106L同步进行，在刷LeetCode的过程中，我认为可供新手借鉴的经验如下：
+* 使用VSCode+LeetCode扩展刷题。使用VSCode的好处在于更智能的代码补全，加上LeetCode扩展之后可以实现更方便的Debug。同时如果你要使用AI辅助的话，Copilot也可以让你与AI之间的合作更加顺滑。
+* [代码随想录](https://www.programmercarl.com/)：该网站提供了一套完整的刷题计划和题目讲解。跟着这套计划一天推进几道题，可以在不到三个月的时间内对算法数据结构有一个整体上的了解。
+
+## 更多
+笔者对C++的学习与了解仅限上述资料，凭借这点了解已经足够进行UE的C++开发（UE的C++相对于原生C++来说，又有许多需要学习的新知识），对于更多的高级内容则是在需要用到时才去了解。C++ Primer和C++ Primer Plus可以作为参考工具书使用，但不推荐以此入手学习C++。
