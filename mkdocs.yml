@@ -67,6 +67,7 @@ plugins:
   - search
 
 markdown_extensions:
+  - nl2br
   - attr_list
   - md_in_html
   - pymdownx.superfences
