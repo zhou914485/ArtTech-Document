@@ -4,15 +4,43 @@ theme:
   logo: assets/logo.jpg # 建议放置社团 logo
   favicon: assets/logo.jpg # 建议自定义 favicon
   features:
-    - navigation.tabs
-    - navigation.sections
-    - navigation.expand
-    - navigation.top
-    - search.highlight
-    - search.share
-    - content.code.copy # 代码块一键复制
-    - content.action.edit # 页面右上角“编辑此页”按钮
-    - content.action.view # 页面右上角“在 GitHub 查看”
+    # 导航相关功能
+    - navigation.tabs              # 顶级部分显示为标签页
+    # - navigation.tabs.sticky       # 标签页在滚动时保持可见
+    # - navigation.sections          # 顶级部分显示为组，适合大型文档
+    - navigation.expand            # 默认展开所有可折叠的子部分
+    - navigation.path              # 在页面顶部显示面包屑导航
+    - navigation.prune             # 只渲染可见的导航项，提高性能
+    - navigation.indexes           # 允许将文档直接附加到部分
+    - navigation.top               # 添加"回到顶部"按钮
+    - navigation.footer            # 在页脚显示上一页/下一页导航
+    - navigation.tracking          # 在URL中锚定标题，方便分享
+    
+    # 目录相关功能
+    - toc.follow                   # 侧边栏目录跟随滚动
+    # - toc.integrate                # 将目录集成到左侧导航栏
+    
+    # 搜索相关功能
+    - search.highlight             # 高亮搜索结果
+    - search.share                 # 搜索结果分享按钮
+    - search.suggest               # 搜索建议
+    
+    # 内容相关功能
+    - content.action.edit          # 页面右上角"编辑此页"按钮
+    - content.action.view          # 页面右上角"查看源码"按钮
+    - content.code.copy            # 代码块一键复制按钮
+    - content.code.select          # 代码块选择功能
+    - content.code.annotate        # 代码注释功能
+    - content.tabs.link            # 链接内容标签页
+    - content.tooltips             # 工具提示功能
+    - content.footnote.tooltips    # 脚注工具提示
+    
+    # 标题相关功能
+    # - header.autohide              # 向下滚动时自动隐藏标题栏
+    
+    # 公告横幅功能
+    - announce.dismiss
+
   palette:
     - scheme: default
       primary: indigo
@@ -34,8 +62,17 @@ theme:
 nav:
   - 首页: index.md
   - 社团介绍:
+      - 成员介绍:
+          - 基本情况: 社团介绍/成员/基本情况.md
+          - 学生:
+              - 张大佑: 社团介绍/成员/学生/张大佑.md
+              - 贺宇皓: 社团介绍/成员/学生/贺宇皓.md
+              - 胡嘉悦: 社团介绍/成员/学生/胡嘉悦.md
+              - 李杰: 社团介绍/成员/学生/李杰.md
+          - 教师:
+              - 徐老师: 社团介绍/成员/教师/徐津津.md
+              - 钟老师: 社团介绍/成员/教师/钟梦蕾.md
       - 社团简介: 社团介绍/简介.md
-      - 成员介绍: 社团介绍/成员.md
       - 活动记录: 社团介绍/活动.md
   - UE:
       - UE入门: UE/入门.md
