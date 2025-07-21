@@ -7,7 +7,7 @@ theme:
     # 导航相关功能
     - navigation.tabs              # 顶级部分显示为标签页
     # - navigation.tabs.sticky       # 标签页在滚动时保持可见
-    # - navigation.sections          # 顶级部分显示为组，适合大型文档
+    #- navigation.sections          # 顶级部分显示为组，适合大型文档
     - navigation.expand            # 默认展开所有可折叠的子部分
     - navigation.path              # 在页面顶部显示面包屑导航
     - navigation.prune             # 只渲染可见的导航项，提高性能
@@ -18,7 +18,7 @@ theme:
     
     # 目录相关功能
     - toc.follow                   # 侧边栏目录跟随滚动
-    # - toc.integrate                # 将目录集成到左侧导航栏
+    #- toc.integrate                # 将目录集成到左侧导航栏
     
     # 搜索相关功能
     - search.highlight             # 高亮搜索结果
