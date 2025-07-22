@@ -8,17 +8,16 @@ theme:
     - navigation.tabs              # 顶级部分显示为标签页
     # - navigation.tabs.sticky       # 标签页在滚动时保持可见
     #- navigation.sections          # 顶级部分显示为组，适合大型文档
-    - navigation.expand            # 默认展开所有可折叠的子部分
+    #- navigation.expand            # 默认展开所有可折叠的子部分
     - navigation.path              # 在页面顶部显示面包屑导航
     - navigation.prune             # 只渲染可见的导航项，提高性能
     - navigation.indexes           # 允许将文档直接附加到部分
     - navigation.top               # 添加"回到顶部"按钮
     - navigation.footer            # 在页脚显示上一页/下一页导航
     - navigation.tracking          # 在URL中锚定标题，方便分享
-    
-    # 目录相关功能
+      # 目录相关功能
     - toc.follow                   # 侧边栏目录跟随滚动
-    #- toc.integrate                # 将目录集成到左侧导航栏
+    # - toc.integrate                # 将目录集成到左侧导航栏
     
     # 搜索相关功能
     - search.highlight             # 高亮搜索结果
@@ -37,10 +36,8 @@ theme:
     
     # 标题相关功能
     # - header.autohide              # 向下滚动时自动隐藏标题栏
-    
-    # 公告横幅功能
+      # 公告横幅功能
     - announce.dismiss
-
   palette:
     - scheme: default
       primary: indigo
@@ -52,12 +49,14 @@ theme:
       primary: indigo
       accent: indigo
       toggle:
-        icon: material/brightness-4
+        icon: material/brightness-4        
         name: 切换日间模式
   font:
     text: Noto Sans SC
     code: Fira Mono
   language: zh
+  extra_javascript:
+    - assets/javascripts/toc_toggle.js
 
 nav:
   - 首页: index.md
