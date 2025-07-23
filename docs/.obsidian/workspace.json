@@ -6,25 +6,8 @@
       {
         "id": "dd248b1387f0980f",
         "type": "tabs",
-        "dimension": 74.72677595628416,
+        "dimension": 59.32377049180327,
         "children": [
-          {
-            "id": "4ac16bf0ab6f95af",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "未命名.canvas",
-                "viewState": {
-                  "x": 71.33331298828125,
-                  "y": -54,
-                  "zoom": 0
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "未命名"
-            }
-          },
           {
             "id": "31b94e38e681dfa8",
             "type": "leaf",
@@ -40,22 +23,26 @@
             }
           },
           {
-            "id": "e58c4b9b5942cb9f",
+            "id": "a60acef29862d80f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "项目信息/蜀祭·太初.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/Drawing 2025-07-23 23.59.24.excalidraw.md"
               },
-              "icon": "lucide-file",
-              "title": "蜀祭·太初"
-            },
-            "group": "2ded9ef344ca38b8"
-          },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-07-23 23.59.24.excalidraw"
+            }
+          }
+        ]
+      },
+      {
+        "id": "c51a05c9c37ed868",
+        "type": "tabs",
+        "dimension": 40.67622950819672,
+        "children": [
           {
-            "id": "ae4e3fdcf860994b",
+            "id": "d0105da691a14fef",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -67,30 +54,6 @@
               "icon": "lucide-file",
               "title": "蜀祭·太初"
             }
-          }
-        ],
-        "currentTab": 2
-      },
-      {
-        "id": "e3b9d000bf2d9e90",
-        "type": "tabs",
-        "dimension": 25.273224043715846,
-        "children": [
-          {
-            "id": "51fd4661a3ddeb87",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "项目信息/蜀祭·太初.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "蜀祭·太初 的大纲"
-            },
-            "group": "2ded9ef344ca38b8"
           }
         ]
       }
@@ -240,26 +203,33 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "e58c4b9b5942cb9f",
+  "active": "31b94e38e681dfa8",
   "lastOpenFiles": [
+    "assets/images/Pasted image 20250724000916.png",
+    "Excalidraw/Drawing 2025-07-23 23.59.24.excalidraw.md",
+    "项目信息/蜀祭·太初.md",
+    "assets/images/Pasted image 20250724000102.png",
+    "assets/images/Pasted image 20250723233449.png",
+    "Excalidraw/Drawing 2025-07-23 23.31.24.excalidraw.md",
+    "项目信息/食几何时.md",
+    "Excalidraw/Drawing 2025-07-23 23.08.09.excalidraw.md",
+    "Excalidraw/Drawing 2025-07-23 21.30.59.excalidraw.md",
+    "Excalidraw/Drawing 2025-07-23 23.11.31.excalidraw.md",
+    "Excalidraw/Drawing 2025-07-23 23.20.12.excalidraw.md",
+    "未命名.canvas",
+    "未命名 1.canvas",
+    "assets/images/Pasted image 20250723232211.png",
+    "assets/images/Pasted image 20250723231115.png",
     "assets/images/Pasted image 20250722164402.png",
     "Excalidraw/Drawing 2025-07-22 13.55.00.excalidraw.md",
     "Excalidraw/Drawing 2025-07-22 13.54.41.excalidraw.md",
     "Excalidraw/Drawing 2025-07-22 13.59.22.excalidraw.md",
-    "项目信息/蜀祭·太初.md",
     "Excalidraw/Drawing 2025-07-22 11.49.29.excalidraw.md",
     "assets/images/Pasted image 20250722150454.png",
     "assets/images/Pasted image 20250722145910.png",
     "assets/images/Pasted image 20250722145836.png",
     "assets/images/Pasted image 20250722145003.png",
     "assets/images/Pasted image 20250722144909.png",
-    "assets/images/Pasted image 20250722144506.png",
-    "assets/images/Pasted image 20250722144021.png",
-    "assets/images/Pasted image 20250722143725.png",
-    "assets/images/Pasted image 20250722143338.png",
-    "assets/images/Pasted image 20250722143144.png",
-    "未命名.canvas",
-    "项目信息/食几何时.md",
     "assets/javascripts/custom.js",
     "assets/stylesheets/custom.css",
     "assets/stylesheets",
@@ -271,7 +241,6 @@
     "assets/images/Tldraw 2025-07-22 12.06中午.md",
     "Excalidraw",
     "index.md",
-    "未命名 1.canvas",
     "蜀祭·太初：VR潜行战斗游戏企划书.md",
     "社团介绍/活动.md",
     "编程基础/CSharp/CSharp基础.md",
@@ -279,14 +248,8 @@
     "社团介绍/成员/教师/徐津津.md",
     "社团介绍/成员/教师/钟梦蕾.md",
     "社团介绍/成员/学生/贺宇皓.md",
-    "社团介绍/成员/学生/李杰.md",
-    "社团介绍/成员/学生/胡嘉悦.md",
-    "社团介绍/成员/学生/张大佑.md",
     "社团介绍/成员/教师",
-    "社团介绍/成员/基本情况.md",
     "社团介绍/成员/学生",
-    "社团介绍/成员",
-    "其他/如何为本网站做出贡献.md",
-    "其他/机核节目推荐.md"
+    "社团介绍/成员"
   ]
 }
