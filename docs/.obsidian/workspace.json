@@ -6,7 +6,7 @@
       {
         "id": "dd248b1387f0980f",
         "type": "tabs",
-        "dimension": 59.32377049180327,
+        "dimension": 28.415300546448087,
         "children": [
           {
             "id": "31b94e38e681dfa8",
@@ -37,12 +37,12 @@
         ]
       },
       {
-        "id": "c51a05c9c37ed868",
+        "id": "8a6f06a67798e6aa",
         "type": "tabs",
-        "dimension": 40.67622950819672,
+        "dimension": 71.58469945355192,
         "children": [
           {
-            "id": "d0105da691a14fef",
+            "id": "49cb7da788fc38c0",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -203,11 +203,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "31b94e38e681dfa8",
+  "active": "518531cf74dd9c94",
   "lastOpenFiles": [
+    "CPU_Design_Document.md",
+    "项目信息/蜀祭·太初.md",
     "assets/images/Pasted image 20250724000916.png",
     "Excalidraw/Drawing 2025-07-23 23.59.24.excalidraw.md",
-    "项目信息/蜀祭·太初.md",
     "assets/images/Pasted image 20250724000102.png",
     "assets/images/Pasted image 20250723233449.png",
     "Excalidraw/Drawing 2025-07-23 23.31.24.excalidraw.md",
@@ -229,7 +230,6 @@
     "assets/images/Pasted image 20250722145910.png",
     "assets/images/Pasted image 20250722145836.png",
     "assets/images/Pasted image 20250722145003.png",
-    "assets/images/Pasted image 20250722144909.png",
     "assets/javascripts/custom.js",
     "assets/stylesheets/custom.css",
     "assets/stylesheets",
