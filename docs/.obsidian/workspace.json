@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "社团介绍/社团介绍.md",
+                "file": "社团介绍/社团运行机制.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "社团介绍"
+              "title": "社团运行机制"
             }
           }
         ],
@@ -187,19 +187,20 @@
   },
   "active": "3dd1c6833e094684",
   "lastOpenFiles": [
-    "社团介绍/简介.md",
     "社团介绍/社团介绍.md",
+    "社团介绍/成员.md",
     "社团介绍/活动.md",
-    "社团介绍/工位与项目管理机制.md",
-    "Excalidraw/Drawing 2025-07-23 23.59.24.excalidraw.md",
-    "项目信息/蜀祭·太初：软件设计文档.md",
     "项目信息/蜀祭·太初.md",
+    "项目信息/蜀祭·太初：软件设计文档.md",
+    "项目信息/食几何时.md",
+    "社团介绍/社团运行机制.md",
+    "社团介绍/简介.md",
+    "Excalidraw/Drawing 2025-07-23 23.59.24.excalidraw.md",
     "CPU_Design_Document.md",
     "assets/images/Pasted image 20250724000916.png",
     "assets/images/Pasted image 20250724000102.png",
     "assets/images/Pasted image 20250723233449.png",
     "Excalidraw/Drawing 2025-07-23 23.31.24.excalidraw.md",
-    "项目信息/食几何时.md",
     "Excalidraw/Drawing 2025-07-23 23.08.09.excalidraw.md",
     "Excalidraw/Drawing 2025-07-23 21.30.59.excalidraw.md",
     "Excalidraw/Drawing 2025-07-23 23.11.31.excalidraw.md",
@@ -228,7 +229,6 @@
     "assets/images/Tldraw 2025-07-22 12.06中午.md",
     "Excalidraw",
     "index.md",
-    "蜀祭·太初：VR潜行战斗游戏企划书.md",
     "编程基础/CSharp",
     "社团介绍/成员/教师",
     "社团介绍/成员/学生",
