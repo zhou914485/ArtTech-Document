@@ -4,58 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "dd248b1387f0980f",
+        "id": "42539e725c914aa3",
         "type": "tabs",
-        "dimension": 28.415300546448087,
         "children": [
           {
-            "id": "31b94e38e681dfa8",
+            "id": "074f804337f0143f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "项目信息/蜀祭·太初.md",
+                "file": "社团介绍/工位与项目管理机制.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "蜀祭·太初"
+              "title": "工位与项目管理机制"
             }
           },
           {
-            "id": "a60acef29862d80f",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2025-07-23 23.59.24.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-07-23 23.59.24.excalidraw"
-            }
-          }
-        ]
-      },
-      {
-        "id": "8a6f06a67798e6aa",
-        "type": "tabs",
-        "dimension": 71.58469945355192,
-        "children": [
-          {
-            "id": "49cb7da788fc38c0",
+            "id": "3dd1c6833e094684",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "项目信息/蜀祭·太初.md",
+                "file": "社团介绍/社团介绍.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "蜀祭·太初"
+              "title": "社团介绍"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -194,6 +175,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:创建新数据库": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -203,12 +185,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "518531cf74dd9c94",
+  "active": "3dd1c6833e094684",
   "lastOpenFiles": [
-    "CPU_Design_Document.md",
-    "项目信息/蜀祭·太初.md",
-    "assets/images/Pasted image 20250724000916.png",
+    "社团介绍/简介.md",
+    "社团介绍/社团介绍.md",
+    "社团介绍/活动.md",
+    "社团介绍/工位与项目管理机制.md",
     "Excalidraw/Drawing 2025-07-23 23.59.24.excalidraw.md",
+    "项目信息/蜀祭·太初：软件设计文档.md",
+    "项目信息/蜀祭·太初.md",
+    "CPU_Design_Document.md",
+    "assets/images/Pasted image 20250724000916.png",
     "assets/images/Pasted image 20250724000102.png",
     "assets/images/Pasted image 20250723233449.png",
     "Excalidraw/Drawing 2025-07-23 23.31.24.excalidraw.md",
@@ -242,12 +229,7 @@
     "Excalidraw",
     "index.md",
     "蜀祭·太初：VR潜行战斗游戏企划书.md",
-    "社团介绍/活动.md",
-    "编程基础/CSharp/CSharp基础.md",
     "编程基础/CSharp",
-    "社团介绍/成员/教师/徐津津.md",
-    "社团介绍/成员/教师/钟梦蕾.md",
-    "社团介绍/成员/学生/贺宇皓.md",
     "社团介绍/成员/教师",
     "社团介绍/成员/学生",
     "社团介绍/成员"
