@@ -4,7 +4,7 @@
 
 ⚠️ 本文写于 2025 年 9 月 13 日，AI 服务（尤其是大语言模型）更新飞快，本文内容随时可能过时，请读者注意甄别，灵活应对。
 
-# 大语言模型推荐
+## 大语言模型推荐
 
 不妨先看一眼 [Openrouter 统计的 token 使用排名](https://openrouter.ai/rankings)，一定程度上反映了当前主流大模型的热度：
 
@@ -20,9 +20,9 @@
 
 国内：**Deepseek、Qwen** 等大模型都很不错，便宜大碗，Deepseek 深度思考能力做的不错。
 
-# 如何让大模型帮你干活
+## 如何让大模型帮你干活
 
-## 避免 XY Problem
+### 避免 XY Problem
 
 非常神奇的是，随着 OpenAI 提出的 Scaling Law 持续发挥效果，通过无脑堆参数量，现在的大模型已经具备了**足够的计算机专业的各种知识**，回答计算机领域的各种问题时，已经某种程度上**具有了直觉**，对于写代码的任务也有足够的能力，能写出标准、格式工整的代码。
 
@@ -54,13 +54,13 @@ ERROR: Could not find a version that satisfies the requirement pandas==1.5.0 (fr
 
 ![](../assets/images/Pasted%20image%2020250913215254.png)
 
-## 写代码
+### 写代码
 
 目前大多数人认为 Claude 的代码能力最强（有足够多的代码语料训练，能够精确匹配不同函数间的 API 接口，熟悉常见的代码逻辑，能帮助写较完善的单元测试）。
 
 **但 Prompt 写不好，再强的模型也白搭。**
 
-### 架构设计很重要
+#### 架构设计很重要
 
 一个模糊的 prompt 如：
 
@@ -76,7 +76,7 @@ ERROR: Could not find a version that satisfies the requirement pandas==1.5.0 (fr
 我想写一个针对AI工作负载的LLM日志分析模块，现有的数据是通过xxx方式收集得到的，存储在yyy,格式如zzz。你觉得这个模块可以怎么实现，包括哪几部分？
 ```
 
-或者直接反问：
+或者直接让 AI 反问：
 
 ```
 我想写一个针对AI工作负载的LLM日志分析模块，但具体逻辑和代码架构还不清晰，我需要完善我的需求，请你不要猜测这些模糊的地方，现在直接向我提问。
@@ -88,7 +88,7 @@ ERROR: Could not find a version that satisfies the requirement pandas==1.5.0 (fr
 
 Prompt 越完整详细，得到的代码就越可控，也能让你更加地快速理解生成的代码。
 
-### 我是否需要看懂每一行代码？
+#### 我是否需要看懂每一行代码？
 
 如果你想**写小项目/快速实现 demo/写个一次性脚本/写固定模式的代码（比如发个 HTTP 请求）**：
 
@@ -108,7 +108,7 @@ LLM 会生成它“见过”的最常见的模式，但这不一定是当前问�
 
 即使最终的代码能完成某项功能，也会由于代码高度冗余，**不便于别人理解，也不便于后续增加新功能和维护。**
 
-## 配环境
+### 配环境
 
 大模型的准确回答需要**足够的信息**。遇到环境配置问题（Python、Cuda 等），直接把报错信息完整粘贴给 AI，它通常能给出常见解决路径。如果能附上你的操作环境（是否虚拟机？执行过什么特殊操作？），回答会更准。
 
@@ -116,7 +116,7 @@ LLM 会生成它“见过”的最常见的模式，但这不一定是当前问�
 
 贴报错 → 问排查方法 → 尝试 → 反馈终端输出的更多信息 → 再问…
 
-## 学会上网搜索
+### 学会上网搜索
 
 在“前 AI 时代”，根据计算机领域古老而神圣的传统，**程序员两大美德**是：
 
@@ -125,9 +125,9 @@ LLM 会生成它“见过”的最常见的模式，但这不一定是当前问�
 
 如果回答者甩出这两个缩写，意思就是认为你需要的信息非常容易获得，不应该来骚扰他。
 
-**AI 时代，RTFM 压力小多了——很多手册内容，模型已熟记于心。**。（如 Linux man pages 中的常见命令(https://www.man7.org/linux/man-pages/)
+**AI 时代，RTFM 压力小多了——很多手册内容，模型已熟记于心。**。（[如 Linux man pages 中的常见命令](https://www.man7.org/linux/man-pages/)）
 
-而对于一些又臭又长，针对于硬件/底层开发的从业者的手册（如 Intel 的 x86-64 架构开发手册：https://www.intel.com/content/www/us/en/developer/articles/technical/intel-sdm.html ），即使 AI 不能完全掌握其中的精髓，你也可以把手册的一部分内容喂给 AI, 让他快速地帮你找到想要的信息。
+而对于一些又臭又长，针对于硬件/底层开发的从业者的手册（如 [Intel 的 x86-64 架构开发手册](https://www.intel.com/content/www/us/en/developer/articles/technical/intel-sdm.html)），即使 AI 不能完全掌握其中的精髓，你也可以把手册的一部分内容喂给 AI, 让他快速地帮你找到想要的信息。
 
 **但 STFW 在一些时候是很有必要的：** 虽然 LLM 具有足够的知识和直觉，但有一些**复杂/少见/时效性强**的问题，如：
 
@@ -169,35 +169,35 @@ AttributeError: 'gdb.Symbol' object has no attribute 'is_artificial'
 
 （虽然但是，我个人觉得，再过几年，LLM接收外部信息（如网络搜索）的能力进一步增强之后，这种问题对AI都不是问题）
 
-关于以上这部分内容，欢迎阅读HITSZ OSA 修改版提问的智慧 https://wiki.osa.moe/guide-for-beginner/how-to-ask-questions-the-smart-way/
+### 提问的智慧
+
+关于以上这部分内容，欢迎阅读[HITSZ OSA 修改版提问的智慧](https://wiki.osa.moe/guide-for-beginner/how-to-ask-questions-the-smart-way/)。
 
 正如文中注解，**任何观点都有其时代性与文化性。你并不一定需要全盘接受作者的观点。** 但看一看怎么提问总没有坏处，无论是对人还是对AI，会提问永远都是一项重要能力，不知道什么时候就能用到呢。
 
-# AI 服务推荐
+## AI 服务推荐
 
-## Github Copilot
+### Github Copilot
 
 Github Copilot的优势在于可以和VSCode紧密结合，LLM有能力读取当前项目的代码，在代码中搜索，获取Github上开源仓库的类似代码实现作为参考，以及自动生成 `tasks.json`等功能。
 
 如果你习惯使用vscode编程，copilot的体验非常好。
 
-**学生可白嫖**，认证后免费使用，搜索“github copilot 学生认证”即可申请。
+**学生可白嫖**，认证后免费使用，搜索“github copilot 学生认证”即可申请。也可参考[Github官方的学生认证指南](https://docs.github.com/zh/education/about-github-education/github-education-for-students/apply-to-github-education-as-a-student)。
 
-https://docs.github.com/zh/education/about-github-education/github-education-for-students/apply-to-github-education-as-a-student
-
-## Jetbrains
+### Jetbrains 全家桶
 
 Jetbrains家的各种IDE和vscode相比功能更多，对嵌入式开发（Arduino, stm32）等支持会更完善一些。**也可以白嫖。**
 
-## Poe
+### Poe
 
 Poe是一个LLM服务聚合平台，他的最大优势是多个愿望一次满足，可以直接和绝大多数大模型一站式丝滑对话。
 
 收费形式是每个月大概120元，给一百万积分，够向LLM提问近千次。
 
-# API Key 调用
+## API Key 调用
 
-很多工具支持通过 API key 接入大模型，实现翻译、润色等功能——效果通常比传统机器翻译更自然。
+很多工具支持通过 API Key 接入大模型，实现翻译、润色等功能——效果通常比传统机器翻译更自然。
 
 以edge的“沉浸式翻译”插件举例：
 
@@ -207,7 +207,7 @@ Poe是一个LLM服务聚合平台，他的最大优势是多个愿望一次满�
 
 国外的API KEY 平台可以尝试[Openrouter](https://openrouter.ai/) ,但是我个人觉得延迟可能较高。
 
-# 其他无用的小知识
+## 其他无用的小知识
 
-- 现在的主流大模型都是transformer架构的，根据transformer架构的原理，把你的要求放在Prompt 的最前面可能会更有用。
-- 现在LLM仍然是一个黑盒，对LLM可解释性的探索一直在继续着。扩展阅读：https://transformer-circuits.pub/2025/attribution-graphs/biology.html
+- 现在的主流大模型都是transformer架构的，根据transformer架构的原理，把你的要求放在 Prompt 的最前面可能会更有用。
+- 现在LLM仍然是一个黑盒，对LLM可解释性的探索一直在继续着。扩展阅读[Claude关于LLM内在原理的研究](https://transformer-circuits.pub/2025/attribution-graphs/biology.html)。
