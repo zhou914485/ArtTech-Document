@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "社团介绍/社团运行机制.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "社团运行机制"
+              "title": "index"
             }
           }
         ],
@@ -187,13 +187,13 @@
   },
   "active": "3dd1c6833e094684",
   "lastOpenFiles": [
+    "社团介绍/社团运行机制.md",
     "社团介绍/社团介绍.md",
     "社团介绍/成员.md",
     "社团介绍/活动.md",
     "项目信息/蜀祭·太初.md",
     "项目信息/蜀祭·太初：软件设计文档.md",
     "项目信息/食几何时.md",
-    "社团介绍/社团运行机制.md",
     "社团介绍/简介.md",
     "Excalidraw/Drawing 2025-07-23 23.59.24.excalidraw.md",
     "CPU_Design_Document.md",
