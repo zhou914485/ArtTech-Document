@@ -5,38 +5,38 @@ theme:
   favicon: assets/logo.jpg # 建议自定义 favicon
   features:
     # 导航相关功能
-    - navigation.tabs              # 顶级部分显示为标签页
+    - navigation.tabs # 顶级部分显示为标签页
     # - navigation.tabs.sticky       # 标签页在滚动时保持可见
     #- navigation.sections          # 顶级部分显示为组，适合大型文档
     #- navigation.expand            # 默认展开所有可折叠的子部分
-    - navigation.path              # 在页面顶部显示面包屑导航
-    - navigation.prune             # 只渲染可见的导航项，提高性能
-    - navigation.indexes           # 允许将文档直接附加到部分
-    - navigation.top               # 添加"回到顶部"按钮
-    - navigation.footer            # 在页脚显示上一页/下一页导航
-    - navigation.tracking          # 在URL中锚定标题，方便分享
+    - navigation.path # 在页面顶部显示面包屑导航
+    - navigation.prune # 只渲染可见的导航项，提高性能
+    - navigation.indexes # 允许将文档直接附加到部分
+    - navigation.top # 添加"回到顶部"按钮
+    - navigation.footer # 在页脚显示上一页/下一页导航
+    - navigation.tracking # 在URL中锚定标题，方便分享
       # 目录相关功能
-    - toc.follow                   # 侧边栏目录跟随滚动
+    - toc.follow # 侧边栏目录跟随滚动
     # - toc.integrate                # 将目录集成到左侧导航栏
-    
+
     # 搜索相关功能
-    - search.highlight             # 高亮搜索结果
-    - search.share                 # 搜索结果分享按钮
-    - search.suggest               # 搜索建议
-    
+    - search.highlight # 高亮搜索结果
+    - search.share # 搜索结果分享按钮
+    - search.suggest # 搜索建议
+
     # 内容相关功能
-    - content.action.edit          # 页面右上角"编辑此页"按钮
-    - content.action.view          # 页面右上角"查看源码"按钮
-    - content.code.copy            # 代码块一键复制按钮
-    - content.code.select          # 代码块选择功能
-    - content.code.annotate        # 代码注释功能
-    - content.tabs.link            # 链接内容标签页
-    - content.tooltips             # 工具提示功能
-    - content.footnote.tooltips    # 脚注工具提示
-    
+    - content.action.edit # 页面右上角"编辑此页"按钮
+    - content.action.view # 页面右上角"查看源码"按钮
+    - content.code.copy # 代码块一键复制按钮
+    - content.code.select # 代码块选择功能
+    - content.code.annotate # 代码注释功能
+    - content.tabs.link # 链接内容标签页
+    - content.tooltips # 工具提示功能
+    - content.footnote.tooltips # 脚注工具提示
+
     # 标题相关功能
     # - header.autohide              # 向下滚动时自动隐藏标题栏
-      # 公告横幅功能
+    # 公告横幅功能
     - announce.dismiss
   palette:
     - scheme: default
@@ -49,7 +49,7 @@ theme:
       primary: indigo
       accent: indigo
       toggle:
-        icon: material/brightness-4        
+        icon: material/brightness-4
         name: 切换日间模式
   font:
     text: Noto Sans SC
@@ -71,11 +71,6 @@ nav:
       - UE项目: UE/项目.md
   - Unity:
       - Unity入门: Unity/入门.md
-      - Unity进阶: Unity/进阶.md
-      - Unity项目: Unity/项目.md
-      - Unity这是什么: Unity/这是什么.md
-  - Godot:
-      - Godot入门: Godot/test.md
   - 编程基础:
       - C#基础: 编程基础/CSharp.md
       - C++基础: 编程基础/Cpp.md
@@ -86,7 +81,7 @@ nav:
       - 食几何时: 项目信息/食几何时.md
   - 其他:
       - 常用工具网站: 其他/常用工具网站.md
-      - AI工具: 其他/AI工具.md
+      - AI工具使用指北: 其他/AI工具使用指北.md
       - 常见问题: 其他/常见问题.md
       - 机核节目推荐: 其他/机核节目推荐.md
       - 如何为本网站做出贡献: 其他/如何为本网站做出贡献.md
