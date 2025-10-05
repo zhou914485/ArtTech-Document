@@ -76,6 +76,10 @@ nav:
           - Unity基础·Component篇: 游戏开发技术/Unity/Unity基础·Component篇.md
           - Unity基础·自建框架篇: 游戏开发技术/Unity/Unity基础·自建框架篇.md
           - C#编程能力进阶: 游戏开发技术/Unity/csharp编程能力进阶.md
+      - Unity渲染:
+          - Unity美术基础: 游戏开发技术/Unity渲染/Unity美术基础.md
+          - URP相关配置介绍: 游戏开发技术/Unity渲染/URP相关配置介绍.md
+          - 用github备份Unity项目: 游戏开发技术/Unity渲染/用github备份Unity项目.md
       - C++基础: 游戏开发技术/Cpp.md
       - 游戏设计模式: 游戏开发技术/游戏设计模式.md
   - 项目信息:
